@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "HHKhrTsT5g4tDRp7JIaDRa4uizE8G1NPRGtf86/D98o=",
+  "Source": "DiagnosticoMedicoApi",
+  "BasePath": "_content/DiagnosticoMedicoApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DiagnosticoMedicoApi\\wwwroot",
+      "Source": "DiagnosticoMedicoApi",
+      "ContentRoot": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\wwwroot\\",
+      "BasePath": "_content/DiagnosticoMedicoApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\obj\\Debug\\net9.0\\compressed\\hgivvv8ntv-voqtpirihx.gz",
+      "SourceId": "DiagnosticoMedicoApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DiagnosticoMedicoApi",
+      "RelativePath": "index#[.{fingerprint=voqtpirihx}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "be7a3pywit",
+      "Integrity": "80r8PZ4SxzNltSFdDTLwtQ2iIjacBeYtb1328vpqoX4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\wwwroot\\index.html",
+      "SourceId": "DiagnosticoMedicoApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\wwwroot\\",
+      "BasePath": "_content/DiagnosticoMedicoApi",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "voqtpirihx",
+      "Integrity": "X50Bvuhdxss4HzwhxRfxykSO+1J7wiDqvOElGYhMHO0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\obj\\Debug\\net9.0\\compressed\\hgivvv8ntv-voqtpirihx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001383125864"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"80r8PZ4SxzNltSFdDTLwtQ2iIjacBeYtb1328vpqoX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 05:06:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X50Bvuhdxss4HzwhxRfxykSO+1J7wiDqvOElGYhMHO0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X50Bvuhdxss4HzwhxRfxykSO+1J7wiDqvOElGYhMHO0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X50Bvuhdxss4HzwhxRfxykSO+1J7wiDqvOElGYhMHO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 05:06:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X50Bvuhdxss4HzwhxRfxykSO+1J7wiDqvOElGYhMHO0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\obj\\Debug\\net9.0\\compressed\\hgivvv8ntv-voqtpirihx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"80r8PZ4SxzNltSFdDTLwtQ2iIjacBeYtb1328vpqoX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 05:06:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-80r8PZ4SxzNltSFdDTLwtQ2iIjacBeYtb1328vpqoX4="
+        }
+      ]
+    },
+    {
+      "Route": "index.voqtpirihx.html",
+      "AssetFile": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\obj\\Debug\\net9.0\\compressed\\hgivvv8ntv-voqtpirihx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001383125864"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"80r8PZ4SxzNltSFdDTLwtQ2iIjacBeYtb1328vpqoX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 05:06:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X50Bvuhdxss4HzwhxRfxykSO+1J7wiDqvOElGYhMHO0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "voqtpirihx"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X50Bvuhdxss4HzwhxRfxykSO+1J7wiDqvOElGYhMHO0="
+        }
+      ]
+    },
+    {
+      "Route": "index.voqtpirihx.html",
+      "AssetFile": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X50Bvuhdxss4HzwhxRfxykSO+1J7wiDqvOElGYhMHO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 05:06:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "voqtpirihx"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X50Bvuhdxss4HzwhxRfxykSO+1J7wiDqvOElGYhMHO0="
+        }
+      ]
+    },
+    {
+      "Route": "index.voqtpirihx.html.gz",
+      "AssetFile": "C:\\Users\\rapha\\OneDrive\\Documentos\\Faculdade\\8° Semestre\\PensamentoComputacional\\ProjetoFinal-PensComp\\DiagnosticoMedicoApi\\obj\\Debug\\net9.0\\compressed\\hgivvv8ntv-voqtpirihx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"80r8PZ4SxzNltSFdDTLwtQ2iIjacBeYtb1328vpqoX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 05:06:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "voqtpirihx"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-80r8PZ4SxzNltSFdDTLwtQ2iIjacBeYtb1328vpqoX4="
+        }
+      ]
+    }
+  ]
+}

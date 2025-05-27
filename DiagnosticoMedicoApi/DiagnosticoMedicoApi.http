@@ -1,0 +1,6 @@
+@DiagnosticoMedicoApi_HostAddress = http://localhost:5105
+
+GET {{ToDoApi_HostAddress}}/index.html
+Accept: text/html
+
+###

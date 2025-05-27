@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/DiagnosticoMedicoApi/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-X50Bvuhdxss4HzwhxRfxykSO\u002B1J7wiDqvOElGYhMHO0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1485"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022X50Bvuhdxss4HzwhxRfxykSO\u002B1J7wiDqvOElGYhMHO0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 May 2025 05:06:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DiagnosticoMedicoApi/index.voqtpirihx.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"voqtpirihx"},{"Name":"integrity","Value":"sha256-X50Bvuhdxss4HzwhxRfxykSO\u002B1J7wiDqvOElGYhMHO0="},{"Name":"label","Value":"_content/DiagnosticoMedicoApi/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1485"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022X50Bvuhdxss4HzwhxRfxykSO\u002B1J7wiDqvOElGYhMHO0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 May 2025 05:06:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

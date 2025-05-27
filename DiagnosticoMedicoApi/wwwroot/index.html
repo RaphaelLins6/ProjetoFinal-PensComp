@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Diagnóstico Médico</title>
+  <style>
+    body {
+      background: #181818;
+      color: #fff;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h2 {
+      color: #ff6600;
+      margin-bottom: 24px;
+      letter-spacing: 1px;
+    }
+    form {
+      background: #222;
+      padding: 32px 28px 24px 28px;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      min-width: 320px;
+    }
+    textarea, input[type="text"] {
+      width: 100%;
+      border: 1px solid #ff6600;
+      border-radius: 8px;
+      padding: 8px;
+      background: #181818;
+      color: #fff;
+      font-size: 1rem;
+      resize: none;
+      margin-bottom: 8px;
+      transition: border 0.2s;
+    }
+    textarea:focus, input[type="text"]:focus {
+      outline: none;
+      border: 2px solid #ff6600;
+    }
+    label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 1rem;
+      color: #fff;
+    }
+    input[type="checkbox"] {
+      accent-color: #ff6600;
+      width: 18px;
+      height: 18px;
+    }
+    button {
+      background: #ff6600;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 32px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 8px;
+      box-shadow: 0 2px 8px rgba(255,102,0,0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+    button:hover {
+      background: #ff8800;
+      transform: translateY(-2px) scale(1.03);
+    }
+    #resultado {
+      margin-top: 32px;
+      background: #222;
+      color: #ff6600;
+      border-radius: 12px;
+      padding: 18px 24px;
+      min-width: 320px;
+      max-width: 500px;
+      text-align: center;
+      font-size: 1.1rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+      word-break: break-word;
+    }
+    @media (max-width: 500px) {
+      form, #resultado {
+        min-width: 90vw;
+        max-width: 98vw;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>Simulador de Diagnóstico</h2>
+  <form id="form">
+    <label for="sintoma">Sintomas (separe por vírgula):</label>
+    <textarea id="sintoma" rows="3" cols="40"></textarea>
+    <label><input type="checkbox" id="exame" /> Exame Feito?</label>
+    <label><input type="checkbox" id="historico" /> Histórico Respiratório?</label>
+    <button type="submit">Diagnosticar</button>
+  </form>
+  <p id="resultado"></p>
+
+  <script>
+    document.getElementById('form').addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      const body = {
+        sintoma: document.getElementById('sintoma').value,
+        exameFeito: document.getElementById('exame').checked,
+        historicoRespiratorio: document.getElementById('historico').checked
+      };
+
+      try {
+        const response = await fetch('http://localhost:5105/api/diagnostico', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body)
+        });
+
+        if (!response.ok) {
+          throw new Error('Erro na API: ' + response.status);
+        }
+
+        const result = await response.text();
+        document.getElementById('resultado').innerText = result;
+      } catch (err) {
+        document.getElementById('resultado').innerText = 'Erro: ' + err.message;
+      }
+    });
+  </script>
+</body>
+</html>
