@@ -62,6 +62,17 @@ https://github.com/user-attachments/assets/72910f31-595b-456e-8aaf-e3db326df0e9
 
 ---
 
+## 🚀 Como Usar
+
+1. Execute a API com o comando:
+   ```
+   dotnet run --project DiagnosticoMedicoApi
+   ```
+2. Acesse [http://localhost:5105/index.html](http://localhost:5105/index.html) no navegador.
+3. Preencha os sintomas (separados por vírgula), marque as opções desejadas e clique em **Diagnosticar** para receber o resultado de forma visual e interativa.
+
+---
+
 ## 📄 Licença
 
 Este projeto está licenciado sob a GNU General Public License v3.0 (GPLv3).  
