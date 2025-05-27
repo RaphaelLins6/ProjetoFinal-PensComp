@@ -51,10 +51,10 @@ Turma de Ciência da Computação - UDF
 ## 🎬 Demonstração
 
 ### Tela Inicial
-![Tela Inicial](./DiagnosticoMedicoApi/Images/TelaInicial.png)
+<img src="./DiagnosticoMedicoApi/Images/TelaInicial.png" alt="Tela Inicial" width="300" height="300" style="border: 15px solid #ccc; border-radius: 15px;" />
 
 ### Diagnóstico Gerado
-![Diagnóstico](./DiagnosticoMedicoApi/Images/ResultadoGerado.png)
+<img src="./DiagnosticoMedicoApi/Images/ResultadoGerado.png" alt="Diagnóstico" width="300" height="300" style="border: 15px solid #ccc; border-radius: 15px;" />
 
 > Vídeo da aplicação!
 
