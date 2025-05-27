@@ -42,9 +42,9 @@ Turma de Ciência da Computação - UDF
 
 ## 🚀 Contribuição de Cada Membro
 
-- **Raphael Lins:** Estruturação da API, criação dos controllers, endpoints REST e lógica de manipulação de tarefas, elaboração do README e documentação do projeto
-- **João Pedro:** Implementação da interface Kanban, estilização com CSS, lógica de interação no JavaScript.
-- **João Gabriel:** Testes de usabilidade, revisão do código.
+- **Raphael Lins:** Estruturação do backend em C#, criação dos controllers, implementação da lógica de diagnóstico médico, integração da API com o frontend, configuração do Swagger e documentação técnica do projeto.
+- **João Pedro:** Desenvolvimento da interface web (HTML, CSS e JavaScript), estilização moderna (preto e laranja), responsividade, experiência do usuário e integração das requisições com a API.
+- **João Gabriel:** Testes de usabilidade do sistema, revisão de código, validação das regras de negócio, auxílio na documentação e suporte na integração entre frontend e backend.
 
 ---
 
